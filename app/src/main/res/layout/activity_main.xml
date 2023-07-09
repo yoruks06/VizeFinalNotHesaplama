@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etVize"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:hint="Vize notu"
+        />
+
+    <EditText
+        android:id="@+id/etVizeAgirlik"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:hint="Vize ağırlığı" />
+
+    <EditText
+        android:id="@+id/etOdev"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="Ödev notu" />
+
+    <EditText
+        android:id="@+id/etOdevAgirlik"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:hint="Ödev ağırlığı" />
+
+    <EditText
+        android:id="@+id/etYilSonu"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="Yıl sonu notu" />
+
+    <EditText
+        android:id="@+id/etYilSonuAgirlik"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="Yıl sonu ağırlığı" />
+
+    <Button
+        android:id="@+id/btnHesapla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hesapla"/>
+
+</LinearLayout>
